@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    background-color: #3c2b63;
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:active{
+    color: #fff;
+    transition: 0.5s;
+}
+
+.nav-item .btn{
+    margin-left: 1.5em;
+    padding: 0.2px !important;
+    transition: 0.5s;
+}
+
+.nav-item .btn:active {
+    color: #fff !important;
+    transition: 0.5s;
+}
+
+.nav-item .btn .a:hover {
+    color: #fff !important;
+    transition: 0.5s;
+}
+
+.navbar-toggler {
+    color: #fff;
+    border-radius: 1px;
+    border-color: #fff;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+main {
+    padding: 2rem;
+}
+
+#home {
+    width: 100% !important;
+    height: 110vh;
+    background-image: url(galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+#about {
+    margin-bottom: 0;
+}
+
+#about h5{
+    color: #fff;
+    font-size: small;
+}
+
+#about .card h5{
+    color: #000;
+    font-size: medium;
+}
+
+#about a {
+    text-decoration: none;
+}
+
+#about a:hover {
+    img {
+        margin-bottom: 0.25em;
+    }
+    h5 {
+        margin-top: 0.25em;
+    }
+}
+
+.label {
+    background-color: #5e469f;
+    height: 15vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #3c2b63 !important;
+    color: #fff;
+}
+
+.img-wrapper  {
+    max-height: 310px;
+    max-width: fit-content;
+}
+
+footer {
+    background: #3c2b63;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.store-main {
+    height: 80vh;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+}
